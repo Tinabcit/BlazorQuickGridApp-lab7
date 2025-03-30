@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorQuickGridApp.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6862146141de76c113c16902ecce30d584a90df")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorQuickGridApp.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorQuickGridApp.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

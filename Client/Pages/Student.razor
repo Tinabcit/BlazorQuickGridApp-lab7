@@ -1,35 +1,63 @@
 @page "/students"
+@using BlazorQuickGridApp.Shared.Models
 @inject HttpClient Http
+@inject NavigationManager Navigation
 
 <h3>Students</h3>
 
 @if (students == null)
 {
-        <p>Loading...</p>
+    <p>Loading...</p>
 }
 else
 {
-        <ul>
-            @foreach (var student in students)
-            {
-                    <li>@student.Name - @student.Age - @student.Grade</li>
-            }
-        </ul>
+    <ul>
+        @foreach (var student in students)
+        {
+            <li>@student.Name - @student.Age - @student.Grade
+                <button @onclick="() => EditStudent(student.Id)">Edit</button>
+                <button @onclick="() => DeleteStudent(student.Id)">Delete</button>
+            </li>
+        }
+    </ul>
+}
+
+@if (errorMessage != null)
+{
+    <p class="alert alert-danger">Error: @errorMessage</p>
 }
 
 @code {
-    private List<Student> students;
+    private List<StudentViewModel> students;
+    private string errorMessage = null;
 
     protected override async Task OnInitializedAsync()
     {
-        students = await Http.GetFromJsonAsync<List<Student>>("https://localhost:5001/api/student");
+        try
+        {
+            var response = await Http.GetAsync("http://localhost:5123/api/student");
+            if (response.IsSuccessStatusCode)
+            {
+                students = await response.Content.ReadFromJsonAsync<List<StudentViewModel>>();
+            }
+            else
+            {
+                errorMessage = "Failed to load students.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = ex.Message;
+        }
     }
 
-    public class Student
+    private void EditStudent(int studentId)
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public string Grade { get; set; }
+        Navigation.NavigateTo($"/editstudent/{studentId}");
+    }
+
+    private void DeleteStudent(int studentId)
+    {
+        Navigation.NavigateTo($"/deletestudent/{studentId}");
     }
 }

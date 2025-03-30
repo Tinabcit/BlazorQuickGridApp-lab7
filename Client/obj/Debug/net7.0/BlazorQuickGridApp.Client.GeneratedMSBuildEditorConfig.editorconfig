@@ -28,8 +28,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/tinas/OneDrive/Desktop/COMP 4602- Advanced .NET Web App Developnment/Week 7/Lab/BlazorQuickGridApp/Client/Pages/AddStudents.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3R1ZGVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/tinas/OneDrive/Desktop/COMP 4602- Advanced .NET Web App Developnment/Week 7/Lab/BlazorQuickGridApp/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tinas/OneDrive/Desktop/COMP 4602- Advanced .NET Web App Developnment/Week 7/Lab/BlazorQuickGridApp/Client/Pages/DeleteStudent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlU3R1ZGVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tinas/OneDrive/Desktop/COMP 4602- Advanced .NET Web App Developnment/Week 7/Lab/BlazorQuickGridApp/Client/Pages/EditStudent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFN0dWRlbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tinas/OneDrive/Desktop/COMP 4602- Advanced .NET Web App Developnment/Week 7/Lab/BlazorQuickGridApp/Client/Pages/FetchData.razor]

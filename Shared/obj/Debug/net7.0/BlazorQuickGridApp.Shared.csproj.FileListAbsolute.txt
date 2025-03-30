@@ -1,0 +1,11 @@
+C:\Users\tinas\OneDrive\Desktop\COMP 4602- Advanced .NET Web App Developnment\Week 7\Lab\BlazorQuickGridApp\Shared\bin\Debug\net7.0\BlazorQuickGridApp.Shared.deps.json
+C:\Users\tinas\OneDrive\Desktop\COMP 4602- Advanced .NET Web App Developnment\Week 7\Lab\BlazorQuickGridApp\Shared\bin\Debug\net7.0\BlazorQuickGridApp.Shared.dll
+C:\Users\tinas\OneDrive\Desktop\COMP 4602- Advanced .NET Web App Developnment\Week 7\Lab\BlazorQuickGridApp\Shared\bin\Debug\net7.0\BlazorQuickGridApp.Shared.pdb
+C:\Users\tinas\OneDrive\Desktop\COMP 4602- Advanced .NET Web App Developnment\Week 7\Lab\BlazorQuickGridApp\Shared\obj\Debug\net7.0\BlazorQuickGridApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tinas\OneDrive\Desktop\COMP 4602- Advanced .NET Web App Developnment\Week 7\Lab\BlazorQuickGridApp\Shared\obj\Debug\net7.0\BlazorQuickGridApp.Shared.AssemblyInfoInputs.cache
+C:\Users\tinas\OneDrive\Desktop\COMP 4602- Advanced .NET Web App Developnment\Week 7\Lab\BlazorQuickGridApp\Shared\obj\Debug\net7.0\BlazorQuickGridApp.Shared.AssemblyInfo.cs
+C:\Users\tinas\OneDrive\Desktop\COMP 4602- Advanced .NET Web App Developnment\Week 7\Lab\BlazorQuickGridApp\Shared\obj\Debug\net7.0\BlazorQuickGridApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\tinas\OneDrive\Desktop\COMP 4602- Advanced .NET Web App Developnment\Week 7\Lab\BlazorQuickGridApp\Shared\obj\Debug\net7.0\BlazorQuickGridApp.Shared.dll
+C:\Users\tinas\OneDrive\Desktop\COMP 4602- Advanced .NET Web App Developnment\Week 7\Lab\BlazorQuickGridApp\Shared\obj\Debug\net7.0\refint\BlazorQuickGridApp.Shared.dll
+C:\Users\tinas\OneDrive\Desktop\COMP 4602- Advanced .NET Web App Developnment\Week 7\Lab\BlazorQuickGridApp\Shared\obj\Debug\net7.0\BlazorQuickGridApp.Shared.pdb
+C:\Users\tinas\OneDrive\Desktop\COMP 4602- Advanced .NET Web App Developnment\Week 7\Lab\BlazorQuickGridApp\Shared\obj\Debug\net7.0\ref\BlazorQuickGridApp.Shared.dll

@@ -1,23 +1,32 @@
-public class Startup
+using BlazorQuickGridApp.Server.Services;  // Import the service
+using Microsoft.Extensions.DependencyInjection;
+
+public class Setup
 {
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddControllersWithViews();
-        services.AddRazorPages();
+        // Add CORS policy
+        services.AddCors(options =>
+        {
+            options.AddPolicy("AllowAllOrigins", builder =>
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader());
+        });
+
+        services.AddControllers(); // Add MVC controllers to the DI container
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
-        app.UseHttpsRedirection();
-        app.UseStaticFiles();
+        // Use CORS policy
+        app.UseCors("AllowAllOrigins");
+
         app.UseRouting();
+
         app.UseEndpoints(endpoints =>
         {
-            endpoints.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
-            endpoints.MapRazorPages();
-            endpoints.MapControllers();  // Add this to map API controllers
+            endpoints.MapControllers(); // Map the controllers to API endpoints
         });
     }
 }
